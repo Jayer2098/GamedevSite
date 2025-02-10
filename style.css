@@ -1,0 +1,71 @@
+body { /*Changes font and background colors as well as text to white*/
+    font-family: Arial, sans-serif;
+    background-color: #2E2B2B;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header { /*gives the header color and fixes positioning*/
+    background-color: #6C78A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70px;
+}
+
+header img { /*adjusts attributes of the logo*/
+    height: 125px;
+    width: auto;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 600px;
+}
+
+nav a { /*anchors element to the nav and adjusts atributes */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #464B6F;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a:hover { /*gives a hover color*/
+    background-color: #5A6187;
+}
+
+main { /*aligns the text */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 { /*alters H1 attributes*/
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+video { /* alter game trailer video players*/
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p { /*alters pargraphs*/
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
